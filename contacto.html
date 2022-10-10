@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body{
+width: 980px;
+margin: 0px auto;
+}
+header{
+padding: 0 0 90px auto;
+}
+
+#logo-header{
+float: left;
+text-decoration: none;
+}
+
+#site-name{
+display: block;
+float: left;
+}
+
+nav{
+background-color: #666;
+padding-left: 4px;
+height: 30px;
+}
+
+nav ul li{
+display: inline;
+padding: 0px 20px 5px 10px;
+border-right: 1px solid #fff;
+}
+
+nav ul li a{
+color: #ffffff;
+text-decoration: none;
+}
+footer{
+position: absolute;
+bottom: 0;
+}
+
+<br>
+</style>
+  <head>
+<link rel="shortcut icon" href="logo1.png">
+    <title> Contacto </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contactanos</title>
+<link rel="stylesheet" href="estilos.css>
+<link rel="shortcut icon" href="logo1.png">	 
+
+<nav>
+
+<ul>
+<li><a href="index1.html">Inicio</a> </li>
+<li><a href="menu.html">Menu</a> </li>
+<li><a href="reservas.html">Reservas</a> </li>
+<li><a href="contacto.html">Contactos</a> </li>
+<li><a href="galeria.html">Galeria</a> </li>
+</ul>
+</nav>
+
+ 
+  </head>
+<section class="section">
+      <div class="wrap-two-column">
+        <div class="column-half">
+          <h2>Formulario de Contacto</h2>
+  <body>
+<form action="contact.php" method="post"> 
+<div class="elem-group"> 
+<label for="name">Nombre</label> 
+<input type="text" id="name" name="visitor_name" placeholder="Julian Lopez" pattern=[A-Z\sa-z]{3,20} required>
+ </div> <div class="elem-group"> 
+<br>
+<label for="email">Correo electrónico</label> <input type="email" id="email" name="visitor_email" placeholder="ejemplo@email.com" required> <br>
+</div> 
+<br>
+<div class="elem-group"> <label for="department-selection">Área a contactar</label> 
+<select id="department-selection" name="concerned_department" required> <option value="">Selecciona un área</option> 
+<option value="billing">Facturación</option> <option value="Soporte">Soporte</option> <option value="technical support">Servicio al cliente</option> </select> </div> <div class="elem-group"> 
+<br>
+<label for="title">Motivo de contacto</label> <input type="text" id="title" name="email_title" required placeholder="Problema/Consulta" pattern=[A-Za-z0-9\s]{8,60}> </div> 
+<br>
+<div class="elem-group"> 
+<label for="message">Solicitud</label> <textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required></textarea> </div> 
+<br>
+<button type="submit">Enviar mensaje</button></form>
+
+
+<body style="background-color:#F0B27A;">
+
